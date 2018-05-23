@@ -100,6 +100,11 @@ hr {
 #menu.navbar-default .navbar-nav > li > a:hover {
 	color: #6aaf08;
 }
+#menu.navbar-default .navbar-nav img {
+	width:30px;
+	margin-top: 12px;
+	margin-left: 5px;
+}
 .on {
 	background-color: #333 !important;
 	padding: 0 !important;
@@ -291,12 +296,9 @@ header .intro-text {
 #services1 .service-desc1 {
 	margin: 10px 10px 20px;
 }
-#services1 h3 {
-	font-weight: 600;
+#services1 h4 {
+	font-weight: 530;
 	padding: 5px 0;
-}
-#services1 .service-desc1 hr {
-	margin-left: 0;
 }
 
 /* Testimonials Section */
@@ -342,6 +344,12 @@ header .intro-text {
 	background: #fff;
 	border: 1px solid #fff;
 }
+
+
+/*transport section*/
+
+
+
 /* Contact Section */
 #contact {
 	padding: 100px 0;
@@ -419,19 +427,21 @@ color: #777;
 }
 #footer h3 {
 	color: #fff;
-	font-size: 22px;
-	font-weight: 700;
+	font-size: 13px;
+	font-weight: 400;
 	letter-spacing: -1px;
 	margin-top: 0;
 	margin-bottom: 5px;
 }
-#footer .link-vk {
-	color: #fff;
-	font-size: 17px;
-	font-weight: 700;
+#footer span {
+	font-size: 14px;
 }
-
 #footer a:hover {
-color: #777;
+color: #fff;
 }
 
+@media (max-width: 480px) {
+header .intro-text h1{
+	font-size: 43px;
+	}
+}
