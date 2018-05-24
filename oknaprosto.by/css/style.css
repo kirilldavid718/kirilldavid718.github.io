@@ -196,7 +196,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/bg-image.jpg) center center no-repeat;
+	background: url(../img/bg3.jpg) center center no-repeat;
 	background-attachment: fixed;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
@@ -740,15 +740,184 @@ color: #777;
 	font-weight: 700;
 }
 
+
+.pop-up{
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 999;
+	top: 0;
+	position: fixed;
+	display: none;
+}
+.wrap-popup{
+	position: fixed;
+	max-width: 450px;
+	width:100%;
+	top: 40%;
+	left: 50%;
+	transform: translateY(-50%);
+	transform: translateX(-50%);
+	background-color: #fff;
+	padding: 50px 14px 20px 14px;
+	z-index: 9999;
+	display: none;
+
+}
+.wrap-popup input{
+	margin:auto;
+	display: block;
+	font-size: 15px;
+	padding: 9px;
+	width:80%;
+	margin-top: 10px;
+}
+.wrap-popup button{
+
+	margin:auto;
+	display: block;
+	font-size: 15px;
+	padding: 9px;
+	width:80%;
+	margin-top: 13px;
+	margin-bottom: 5px;
+}
+.wrap-popup form{
+	display: block;
+	margin:auto;
+	text-align: center;
+
+}
+.wrap-popup form h3{
+	display: block;
+	margin:auto;
+	text-align: center;
+	width:80%;
+	margin-bottom: 20px;
+	}
+.wrap-popup form p{
+	font-size: 22px;
+	font-weight: 700;
+	position: absolute;
+	top: 0;
+	left: 95%;
+}
+
+.wrap-popup .popup-close {
+	cursor: pointer;
+}
+
 @media (max-width: 768px) {
 #about img {
 	margin: 50px 0;
 }
 }
+
 @media (max-width: 567px) {
 	.main-characters{
 		display: none;
 	}
+	.intro {
+	background-attachment: scroll;
+}
+section.money{
+		background-attachment: scroll;
+	}
+	#menu .navbar-header img{
+		width: 40px;
+		height: 60px;
+		margin: 0;
+		margin-top: -13px;
+	}
+	#menu .logo{
+		margin-left: -20px;
+	}
+	#menu .okna{
+		margin-left: 70px;
+		margin-top: -55px;
+		margin-bottom: 8px;
+		font-size:23px;
+	}
+	#menu .phone{
+		margin-left: 0;
+	}
+	#header .row h1 {
+		font-size: 30px;
+	}
+	#header .row p {
+		font-size: 15px;
+	}
+	#services .section-title h2{
+		font-size: 38px;
+	}
+	#services .okna-item {
+		margin-top: 50px;
+	}
+	/*#money {
+		max-height: 500px;
+	}*/
+	#money .karti{
+		display: none;
+	}
+	#money .title-money{
+		margin-top: 290px;
+	}
+	#money .title-money h2{
+		font-size: 35px;
+	}
+	#money .wrap-money span{
+		font-size: 30px;
+	}
+	#money .wrap-money p{
+		font-size: 20px;
+	}
+	.form-money{
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	.form-money .form1 input{
+		margin-top: 15px;
+	}
+	.form-money .form1 button{
+		width:90%;
+	}
+	.work-process .title-work h2{
+		font-size: 35px;
+	}
+	.testimonial{
+		margin-top: 10px;
+	}
+	.charecters .title-charecters h2{
+		font-size: 35px;
+	}
+	.charecters .t .wrap-charec {
+		margin-top: 50px;
+	}
+	.forma2 .title-form h2{
+		font-size: 30px;
+	}
+	.forma2 form button {
+		margin-top: 15px;
+	}
+	#contact .map iframe{
+		height: 80%;
+	}
+	.wrap-popup{
+	width:80%;
+	}
+	.wrap-popup form p{
+	font-size: 25px;
+	font-weight: 700;
+	position: absolute;
+	top: 0;
+	left: 91%;
+	}
+	.wrap-popup{
+	top: 20%;
+	left: 50%;
+	
+
+}
 }
 
 
