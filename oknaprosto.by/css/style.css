@@ -197,7 +197,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	width: 100%;
 	padding: 0;
 	background: url(../img/bg3.jpg) center center no-repeat;
-	background-attachment: fixed;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -213,7 +212,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-size: 56px;
 	font-weight: 700;
 	margin-top: 0;
-	margin-bottom: 10px;
 	text-shadow: 0 0 15px rgba(0,0,0,0.5)
 }
 .intro p {
@@ -231,6 +229,37 @@ header .intro-text {
 	padding-bottom: 150px;
 	text-align: center;
 }
+section.sale {
+	-webkit-background-size: cover;
+	background-size: cover;
+	min-height: 600px;
+	padding-top: 65px;
+	padding-right: 100px;
+	background: #fff url(../img/bg-image.jpg) bottom no-repeat;
+}
+.sale form h3 {
+	font-size: 32px;
+	color: #1f386e;
+	text-transform: uppercase;
+}
+.sale form span {
+	font-size: 40px;
+}
+
+.sale .form2 input {
+	margin-bottom: 15px;
+}
+.sale .form2{
+	max-width: 450px;
+	display: block;
+	float: right;
+	padding:30px;
+	display: block;
+	background-color: #ebebeb;
+	opacity: 0.9;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
 /* Get Touch Section */
 #get-touch {
 	padding: 40px 0 30px;
@@ -253,21 +282,24 @@ header .intro-text {
 	background: #fff;
 	border: 2px solid #fff;
 }
-
+header .timer-sale{
+	display: block;
+	margin:auto;
+} 
+.sale .timer-sale {
+	margin-top: 30px;
+} 
 /* Start Fun Facts Counter Section
 /*----------------------------------------------------------*/
 
 .fun-facts {
     background: url(../images/parallax/bg-02.jpg);
-    background-attachment: fixed;
     background-size: cover;
-    padding-top: 120px;
-    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 10px;
         background-color:  #f6f6f6;
 }
 h2 {
-	margin-top: 10px;
-	margin-bottom: 15px;
 	padding-bottom: 15px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.09);
 	text-align: center;
@@ -311,9 +343,7 @@ color: #000;
 /* Start Latest News Section                       */
 
 /* Services Section */
-#services{
-	margin-top: 80px;
-}
+
 .okna-svg {
 	margin: auto;
 	text-align: center;
@@ -340,12 +370,15 @@ font-size: 13px;
 }
 
 /*Money section*/
+#money {
+max-height: 550px;
+}
 section.money{
-	height: 900px;
-	margin-top: 130px;
-	background-image: url(../img/content_4.jpg);
-		background-attachment: fixed;
+	width:100%;
+	margin-top: 50px;
 	background-size: cover;
+		background: #fff url(../img/content_4.jpg) 30% no-repeat;
+
 }
 .title-money h2{
 	margin-top: 30px;
@@ -357,7 +390,7 @@ section.money{
 	background-color: #1f386e;
 	text-align: center;
 	padding: 20px;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 .wrap-money p{
 	color: #fff;
@@ -369,6 +402,7 @@ section.money{
 }
 section.money img{
 margin-top: 20px;
+margin-bottom: 20px;
 margin-left: 2px;
 width:180px;
 height: 112px;
@@ -446,7 +480,7 @@ section.form-money form input{
 
 /* Portfolio Section */
 #portfolio {
-	padding: 100px 0;
+	padding: 30px 0;
 	background: #f6f6f6;
 }
 .portfolio-title h2 {
@@ -503,13 +537,9 @@ section.form-money form input{
 }
 /* Testimonials Section */
 #testimonials {
-	padding: 100px 0;
+	padding: 30px 0;
 }
-#testimonials i {
-	color: #e6e6e6;
-	font-size: 32px;
-	margin-bottom: 20px;
-}
+
 .testimonial {
 	position: relative;
 	padding: 20px;
@@ -545,7 +575,10 @@ section.form-money form input{
 	background-color: #f6f6f6;
 }
 .charecters h2{
-	margin-top: 60px;
+	margin-top: 40px;
+}
+.charecters .section-title {
+	margin-bottom: 0;
 }
 .charecters ul img{
 	margin-left: 50px;
@@ -564,7 +597,6 @@ margin-bottom: 30px;
 	text-align: center;
 	margin-top: 20px;
 	font-size: 20px;
-
 
 }
 
@@ -602,8 +634,8 @@ margin-bottom: 40px;
 	width:100%;
 }
 .forma2 {
-	margin-top: 40px;	
-	margin-bottom: 60px;	
+	margin-top: 10px;	
+	margin-bottom: 20px;	
 	text-align: center;	
 }
 .forma2 h2{
@@ -611,7 +643,7 @@ margin-bottom: 40px;
 }
 /* Contact Section */
 #contact {
-	padding: 100px 0 60px 0;
+	padding: 20px 0 20px 0;
 	background: #1f386e;
 	color: rgba(255,255,255,.65);
 }
@@ -722,7 +754,7 @@ color: #777;
 }
 /* Footer Section*/
 #footer {
-	background: #f6f6f6;
+	background: #ebebeb;
 }
 #footer h3 {
 	color: #888;
@@ -806,7 +838,10 @@ color: #777;
 .wrap-popup .popup-close {
 	cursor: pointer;
 }
-
+.timer-saling{
+	display: none;
+	margin-top: 10px;
+}
 @media (max-width: 768px) {
 #about img {
 	margin: 50px 0;
@@ -823,6 +858,7 @@ color: #777;
 section.money{
 		background-attachment: scroll;
 	}
+
 	#menu .navbar-header img{
 		width: 40px;
 		height: 60px;
@@ -841,6 +877,10 @@ section.money{
 	#menu .phone{
 		margin-left: 0;
 	}
+	#header .intro-text{
+		padding-top: 150px;
+		padding-bottom: 50px;
+	}
 	#header .row h1 {
 		font-size: 30px;
 	}
@@ -853,54 +893,164 @@ section.money{
 	#services .okna-item {
 		margin-top: 50px;
 	}
-	/*#money {
-		max-height: 500px;
-	}*/
+	#about .section-title h2{
+		font-size: 25px;
+	}
+	.fun-facts{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	#about img{
+		margin: 0;
+	}
+	.counter-item{
+		margin-bottom: 10px;
+		min-height: 100px;
+	}
+	.section-title h2{
+		margin-bottom: 0;
+		margin-top: 0;
+		padding: 5px;
+	}
 	#money .karti{
 		display: none;
 	}
 	#money .title-money{
-		margin-top: 290px;
+		margin-top: 40px;
 	}
 	#money .title-money h2{
-		font-size: 35px;
+		font-size: 25px;
 	}
 	#money .wrap-money span{
-		font-size: 30px;
-	}
-	#money .wrap-money p{
 		font-size: 20px;
 	}
+	#money .wrap-money p{
+		font-size: 15px;
+	}
+	#money .wrap-money {
+		margin-bottom: 20px;
+	}
+	#services .row{
+		margin-top: -80px;
+	}
+	#services .section-title h2{
+		font-size: 25px;
+	}
 	.form-money{
-		margin-top: 20px;
-		margin-bottom: 30px;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	.form-money .title-form h2{
+		font-size: 25px;
+		margin-bottom: 0;
+		margin-top: 0;
 	}
 	.form-money .form1 input{
-		margin-top: 15px;
+		margin-top: 10px;
 	}
 	.form-money .form1 button{
 		width:90%;
-	}
-	.work-process .title-work h2{
-		font-size: 35px;
-	}
-	.testimonial{
 		margin-top: 10px;
 	}
+
+
+	.sale .wrap-form2 .form2{
+		float: none;
+	}
+	section.sale {
+		-webkit-background-size: cover;
+		background-size: cover;
+		min-height: 300px;
+		background: #fff url(../img/bg-image.jpg) bottom no-repeat;
+		padding-right: 20px;
+		padding-left: 20px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.sale .wrap-form2 form h3 {
+		font-size: 18px;
+		color: #1f386e;
+		text-transform: uppercase;
+	}
+	.sale .wrap-form2 form span {
+		font-size: 22px;
+	}
+
+	.sale .wrap-form2 .form2 input {
+		margin-bottom: 10px;
+	}
+	.sale .form2{
+		max-width: 320px;
+		display: block;
+		float: none;
+		padding:10px;
+		display: block;
+		background-color: #ebebeb;
+		opacity: 0.9;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+		margin:auto;
+	}
+
+	.sale .wrap-form2 .timer-sale{
+		width:40px;
+	}
+
+	.timer-sale{
+		display: none;
+	}
+	.timer-saling{
+	display: block;
+    }
+
+	.follow-process img {
+		font-size:24px;
+		margin-bottom:25px;
+		margin-top: -10px;
+		color:#fff;
+		height:70px;
+		width:130px;
+		line-height:90px;
+		-webkit-transition: all 0.4s ease-in-out;
+		-moz-transition: all 0.4s ease-in-out;
+		-ms-transition: all 0.4s ease-in-out;
+		-o-transition: all 0.4s ease-in-out;
+		transition: all 0.4s ease-in-out;
+	}
+	.work-process .title-work{
+		margin-top: 15px;
+		margin-bottom: -40px;
+	}
+	.work-process .title-work h2{
+		font-size: 25px;
+	}
+	#portfolio .container h2{
+		font-size: 30px;
+	}
+	.testimonials .section-title h2{
+		font-size: 25px;
+		}
+		.testimonial{
+			margin-top: -20px;
+		}
 	.charecters .title-charecters h2{
-		font-size: 35px;
+		margin-top: 10px;
+		font-size: 25px;
 	}
 	.charecters .t .wrap-charec {
-		margin-top: 50px;
+		margin-top: 10px;
 	}
 	.forma2 .title-form h2{
-		font-size: 30px;
+		font-size: 20px;
 	}
 	.forma2 form button {
 		margin-top: 15px;
 	}
 	#contact .map iframe{
+		margin-top: -25px;
 		height: 80%;
+	}
+	#contact h2{
+		font-size: 30px;
 	}
 	.wrap-popup{
 	width:80%;
@@ -914,10 +1064,16 @@ section.money{
 	}
 	.wrap-popup{
 	top: 20%;
-	left: 50%;
-	
-
+	left: 50%;	
 }
+
+	#foter h3 {
+	margin: 0;
+	}
+	#footer  h3{
+		margin-top: -2px ;
+		margin-bottom: 0;
+	}
 }
 
 
