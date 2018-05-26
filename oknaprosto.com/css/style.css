@@ -351,11 +351,11 @@ color: #000;
 	text-align: center;
 
 }
-.okno-wrap{
-	min-height: 335px;
+#services .okna-svg .okno-wrap img{
+ margin-bottom: 48px ;
 }
 .okna-svg img{
-	width: 250px;
+	width: 60%;
 }
 #services .section-title h2{
 	font-size: 50px;
@@ -371,7 +371,7 @@ color: #000;
 font-size: 13px;
 }
 #services .okna-svg .okno-wrap2 img{
- margin-bottom: 106px ;
+ margin-bottom: 136px ;
 }
 
 /*Money section*/
@@ -855,10 +855,7 @@ section.forma3 {
 	text-align: center;
 	margin-bottom: 20px;
 }
-#portfolio .portfolio-items .portfolio-item {
-	max-width: 360px;
-	max-height: 240px;
-}
+
 @media (max-width: 768px) {
 #about img {
 	margin: 50px 0;
@@ -889,7 +886,7 @@ section.money{
 		margin-left: 70px;
 		margin-top: -55px;
 		margin-bottom: 8px;
-		font-size:23px;
+		font-size:22px;
 	}
 	#menu .phone{
 		margin-left: 0;
@@ -910,6 +907,7 @@ section.money{
 	#services .okna-item {
 		margin-top: 50px;
 	}
+
 	#about .section-title h2{
 		font-size: 25px;
 	}
@@ -966,6 +964,15 @@ section.money{
 	}
 	#services .section-title h2{
 		font-size: 25px;
+	}
+	#services p{
+		font-size: 20px;
+	}
+	#services button{
+		font-size: 10px;
+	}
+	#services .okna-svg img{
+
 	}
 	.form-money{
 		margin-top: 10px;
@@ -1111,6 +1118,15 @@ section.money{
 .forma3 form button {
 		margin-top: 15px;
 	}
+	.forma3 .title-form h2{
+		font-size: 25px;
+	}
+	.okna-svg p{
+		margin-top: 0;
+	}
+	#services .okna-svg .okno-wrap img{
+ margin-bottom: 0px ;
+}
 }
 
 
