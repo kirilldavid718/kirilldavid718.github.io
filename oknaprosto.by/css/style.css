@@ -83,25 +83,25 @@ hr {
 	padding-top: 8px;
 }
 #menu .okna {
-	font-family: 'Montserrat', sans-serif;
 	font-size: 35px;
-	font-weight: 700;
 	color: #1f386e;
 	text-transform: uppercase;
 	float: left;
-
 	margin-top: -13px;
+	letter-spacing: -2px;
 }
 #menu .okna span {
-	font-family: 'Montserrat', sans-serif;
 	font-size: 11.5px;
-	font-weight: 700;
 	color: #1f386e;
 	text-transform: uppercase;
 	float: left;
 	padding-right: 50px;
-
+	letter-spacing: -0.8px;
 }
+#menu .okna a{
+		font-weight: 700;
+		font-stretch: ultra-condensed;
+	}
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
@@ -368,6 +368,9 @@ color: #000;
 .okna-svg button{
 font-size: 13px;
 }
+#services .okna-svg .okno-wrap2 img{
+ margin-bottom: 106px ;
+}
 
 /*Money section*/
 #money {
@@ -484,7 +487,7 @@ section.form-money form input{
 	background: #f6f6f6;
 }
 .portfolio-title h2 {
-	font-size: 50px;
+	font-size: 35px;
 	position: relative;
 	margin-top: 10px;
 	margin-bottom: 15px;
@@ -641,6 +644,7 @@ margin-bottom: 40px;
 .forma2 h2{
 	font-size: 30px;	
 }
+
 /* Contact Section */
 #contact {
 	padding: 20px 0 20px 0;
@@ -841,6 +845,17 @@ color: #777;
 .timer-saling{
 	display: none;
 	margin-top: 10px;
+}
+section.forma3 {
+	background-image: url(../img/bg-okna.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#portfolio .portfolio-items .portfolio-item {
+	max-width: 360px;
+	max-height: 240px;
 }
 @media (max-width: 768px) {
 #about img {
@@ -1074,7 +1089,11 @@ section.money{
 		margin-top: -2px ;
 		margin-bottom: 0;
 	}
+	#services .okna-svg .okno-wrap2 img{
+ margin-bottom: 0px ;
 }
+}
+
 
 
 
